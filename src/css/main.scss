@@ -1,0 +1,23 @@
+ .logo {
+   width: 120px;
+   height: 31px;
+   background: url('../images/logo.png');
+   margin: 18px 24px 16px 0;
+   float: left;
+ }
+
+ .h100 {
+   height: 100% !important;
+ }
+
+.center {
+  text-align: center;
+}
+
+.clearfix::ater{
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
